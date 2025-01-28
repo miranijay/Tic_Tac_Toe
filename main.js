@@ -4,9 +4,8 @@ let newbtn = document.querySelector("#new-btn")
 let msgcontainer = document.querySelector(".msg-container")
 let msg = document.querySelector("#msg")
 
-let turn = true;        //player's turn
-let count = 0; //To Track Draw
-
+let turn = true        //player's turn
+let count = 0          //To Track Draw
 
 const winPatterns = [
     [0, 1, 2],
